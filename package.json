@@ -1,6 +1,6 @@
 {
   "name": "configamajig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load configuration files with environment and local overrides!",
   "main": "index.js",
   "scripts": {
