@@ -5,7 +5,7 @@ var path = require('path');
 var extend = require('extend');
 
 function getConfig(configPath, configName) {
-    var filePath = '.' + path.sep + path.join(configPath, configName);
+    var filePath = path.join(process.cwd(), configPath, configName);
     try {
         fs.accessSync(filePath, fs.F_OK);
         return require(filePath);
