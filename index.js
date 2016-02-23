@@ -28,7 +28,7 @@ function configamajig(configPath) {
     // Get local overrides
     var localConfig = getConfig(configPath, 'local.json');
 
-    return extend(defaultConfig, envConfig, localConfig);
+    return extend(true, defaultConfig, envConfig, localConfig);
 }
 
 
