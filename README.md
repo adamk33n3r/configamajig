@@ -52,3 +52,10 @@ Play around with the configs in `examples/` and run `node example.js` to see the
 `$ npm install configamajig`
 ## Test
 `$ npm test`
+
+## Changelog
+| Date | Version | Description |
+| --- | --- | --- |
+| 2016-02-23 | v1.0.2 | Switched to using deep copy. Duh. |
+| 2016-02-20 | v1.0.1 | Wasn't using `process.cwd()` for path resolution |
+| 2016-02-19 | v1.0.0 | Initial release! :) |
