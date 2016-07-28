@@ -1,7 +1,7 @@
 # Configamajig
 Load configuration files with environment and local overrides!
 
-The priorities from low to high are `default.json -> <environment>.json -> local.json`. You will generally want to have `local.json` in your `.gitignore` is this will be the place for devs to override the config options they want.
+The priorities from low to high are `default.json -> <environment>.json -> local.json`. You will generally want to have `local.json` in your `.gitignore` as this will be the place for devs to override the config options they want.
 ## Usage
 In this example we have a project structure like this:
 ```
