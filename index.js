@@ -8,7 +8,7 @@ function getConfig(configPath, configName) {
     configName || (configName = '');
     var filePath = path.join(configPath, configName);
     if (configPath.startsWith('.')) {
-        filePath = './' + filePath;
+        filePath = path.join(process.cwd(), filePath);
     }
     try {
         fs.accessSync(filePath, fs.F_OK);
